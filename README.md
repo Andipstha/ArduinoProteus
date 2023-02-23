@@ -120,3 +120,5 @@ void loop() {
     digitalWrite(7,HIGH);
     delay(delay_time);
   }
+  
+  https://microdigisoft.com/how-to-make-a-car-speed-detector-using-arduino-and-ir-sensor-in-proteus/
