@@ -27,14 +27,25 @@
   https://www.arduino.cc/en/Tutorial/BuiltInExamples/AnalogInput
 */
 
+#include <LiquidCrystal.h>
+
 int sensorPin = A0;   // select the input pin for the potentiometer
 int ledPin = 13;      // select the pin for the LED
 int sensorValue = 0;  // variable to store the value coming from the sensor
+
+const int rs = 12, en = 11, d4 = 5, d5 = 4, d6 = 3, d7 = 2;
+LiquidCrystal lcd(rs, en, d4, d5, d6, d7);
 
 void setup() {
   // declare the ledPin as an OUTPUT:
   pinMode(ledPin, OUTPUT);
   Serial.begin(9600);
+
+ // set up the LCD's number of columns and rows:
+  lcd.begin(16, 2);
+  // Print a message to the LCD.
+  //lcd.print(sensorValue);
+
 }
 
 void loop() {
@@ -46,10 +57,18 @@ void loop() {
   delay(sensorValue);
   // turn the ledPin off:
   digitalWrite(ledPin, LOW);
-  
-  Serial.print("Sensor value: " );
-  Serial.print(sensorValue);
+
+  //Serial.print("Sensor value: " );
+  //Serial.print(sensorValue);
+  lcd.print(sensorValue);
 
   // stop the program for for <sensorValue> milliseconds:
   delay(sensorValue);
+
+// set the cursor to column 0, line 1
+  // (note: line 1 is the second row, since counting begins with 0):
+  lcd.setCursor(0, 1);
+  // print the number of seconds since reset:
+  //lcd.print(millis() / 1000);
+
 }
