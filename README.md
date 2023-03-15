@@ -21,13 +21,13 @@ Ardunio UNO driver [Download!](Driver/CH34x_Install_Windows_v3_4.EXE)
 
 The CH340 chip is used by a number of Arduino compatible boards to provide USB connectivity, you may need to install a driver, don’t panic, it’s easier than falling off a log, and much less painful.
 
-```
-$ cd ../lorem
-$ npm install
-$ npm start
-```
+Proteus 8 [Click Here](https://ettron.com/proteus-8-download-installation-with-crack-and-arduino-libraries/)
 
-![Algorithm schema](./images/schema.jpg)
+Ardunio Library File for Proteus [Download!](LibraryFiles/)
+
+```
+www.arduino.cc/
+```
 
 ## Simple Ardunio Projects List
 * [Car Speed Detector](https://microdigisoft.com/how-to-make-a-car-speed-detector-using-arduino-and-ir-sensor-in-proteus/)
