@@ -32,6 +32,6 @@ www.arduino.cc/
 ## Simple Ardunio Projects List
 * [Car Speed Detector](https://microdigisoft.com/how-to-make-a-car-speed-detector-using-arduino-and-ir-sensor-in-proteus/)
 
-To generate lorem ipsum use special shortcode: `put-your-code-here`
+/*To generate lorem ipsum use special shortcode: `put-your-code-here`*/
 
  
