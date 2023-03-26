@@ -6,6 +6,7 @@ kirankhanal@gmail.com
 ## Table of contents
 * [General info](#general-info)
 * [Setup](#setup)
+* [Tutorials](#tutorials)
 
 ## General info
 A tutorial for using Arduino and Proteus as well as some projects made with Arduino and Proteus
@@ -28,6 +29,13 @@ Ardunio Library File for Proteus [Download!](LibraryFiles/)
 ```
 www.arduino.cc/
 ```
+
+## Tutorials
+* [AnalogInput](https://github.com/Andipstha/ArduinoProteus/tree/main/Tutorials/AnalogInput)
+* [ArduinoLCD-Display](https://github.com/Andipstha/ArduinoProteus/tree/main/Tutorials/ArduinoLCD-Display)
+* [Counters](https://github.com/Andipstha/ArduinoProteus/tree/main/Tutorials/Counters)
+
+
 
 ## Simple Ardunio Projects List
 * [Car Speed Detector](https://microdigisoft.com/how-to-make-a-car-speed-detector-using-arduino-and-ir-sensor-in-proteus/)
