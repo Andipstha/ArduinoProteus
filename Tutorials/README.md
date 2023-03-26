@@ -1,118 +1,34 @@
-```
+### LCD (16x2) display without I2C module
 
-// int x0,x1,x2,x3,x4,x5,x6,x7,x8,x9;
-int delay_time=1000;
+VSS -> GND <br />
+VDD -> 5v <br />
+VEE -> pin 9 <br />
+RS -> pin 12 <br />
+PW -> GND <br />
+E -> pin 11 <br />
+
+D7 -> pin 2 <br />
+D6 -> pin 3 <br />
+D5 -> pin 4 <br />
+D4 -> pin 5 <br />
+
+
+```
+#include <LiquidCrystal.h>;
+
+const int rs = 12, en = 11, d4 = 5, d5 = 4, d6 = 3, d7 = 2, ct=9;
+LiquidCrystal mylcd(rs, en, d4, d5, d6, d7);
 
 void setup() {
- 
-  
-  pinMode(1,OUTPUT);
-  pinMode(2,OUTPUT);
-  pinMode(3,OUTPUT);
-  pinMode(4,OUTPUT);
-  pinMode(5,OUTPUT);
-  pinMode(6,OUTPUT);
-  pinMode(7,OUTPUT);
+analogWrite(ct,50);
+mylcd.begin(16, 2);
+mylcd.print("Hello Sandip");
 
 }
 
 void loop() {
 
- 
-    for(int i=1;i<7;i++)
-    {
-   digitalWrite(i,HIGH);
-   digitalWrite(7,LOW);
-    }
-   
- delay(1000);
-  
-    digitalWrite(1,LOW);
-    digitalWrite(2,HIGH);
-    digitalWrite(3,HIGH);
-    digitalWrite(4,LOW);
-    digitalWrite(5,LOW);
-    digitalWrite(6,LOW);
-    digitalWrite(7,LOW);
-    delay(delay_time);
+}
 
 
-
-    digitalWrite(1,HIGH);
-    digitalWrite(2,HIGH);
-    digitalWrite(3,LOW);
-    digitalWrite(4,HIGH);
-    digitalWrite(5,HIGH);
-    digitalWrite(6,LOW);
-    digitalWrite(7,HIGH);
-    delay(delay_time);
-    
-    digitalWrite(1,HIGH);
-    digitalWrite(2,HIGH);
-    digitalWrite(3,HIGH);
-    digitalWrite(4,HIGH);
-    digitalWrite(5,LOW);
-    digitalWrite(6,LOW);
-    digitalWrite(7,HIGH);
-    delay(delay_time);
-
-
-
-    digitalWrite(1,LOW);
-    digitalWrite(2,HIGH);
-    digitalWrite(3,HIGH);
-    digitalWrite(4,LOW);
-    digitalWrite(5,LOW);
-    digitalWrite(6,HIGH);
-    digitalWrite(7,HIGH);
-    delay(delay_time);
-
-
-
-    digitalWrite(1,HIGH);
-    digitalWrite(2,LOW);
-    digitalWrite(3,HIGH);
-    digitalWrite(4,HIGH);
-    digitalWrite(5,LOW);
-    digitalWrite(6,HIGH);
-    digitalWrite(7,HIGH);
-    delay(delay_time);
-
-    digitalWrite(1,HIGH);
-    digitalWrite(2,LOW);
-    digitalWrite(3,HIGH);
-    digitalWrite(4,HIGH);
-    digitalWrite(5,HIGH);
-    digitalWrite(6,HIGH);
-    digitalWrite(7,HIGH);
-    delay(delay_time);
-
-    digitalWrite(1,HIGH);
-    digitalWrite(2,HIGH);
-    digitalWrite(3,HIGH);
-    digitalWrite(4,LOW);
-    digitalWrite(5,LOW);
-    digitalWrite(6,LOW);
-    digitalWrite(7,LOW);
-    delay(delay_time);
-
-    digitalWrite(1,HIGH);
-    digitalWrite(2,HIGH);
-    digitalWrite(3,HIGH);
-    digitalWrite(4,HIGH);
-    digitalWrite(5,HIGH);
-    digitalWrite(6,HIGH);
-    digitalWrite(7,HIGH);
-    delay(delay_time);
-
-    digitalWrite(1,HIGH);
-    digitalWrite(2,HIGH);
-    digitalWrite(3,HIGH);
-    digitalWrite(4,HIGH);
-    digitalWrite(5,LOW);
-    digitalWrite(6,HIGH);
-    digitalWrite(7,HIGH);
-    delay(delay_time);
-  }
-  
-  ```
+```
