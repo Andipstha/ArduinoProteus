@@ -1,4 +1,4 @@
-### LCD (16x2) display without I2C module
+# LCD (16x2) display without I2C module
 
 VSS -> GND <br />
 VDD -> 5v <br />
@@ -12,6 +12,7 @@ D6 -> pin 3 <br />
 D5 -> pin 4 <br />
 D4 -> pin 5 <br />
 
+### Source Code
 
 ```
 #include <LiquidCrystal.h>;
@@ -30,5 +31,7 @@ void loop() {
 
 }
 
-
 ```
+### Circuit Diagram
+![LCD Circuit Diagram](https://github.com/Andipstha/ArduinoProteus/blob/main/Tutorials/Img/Example_1.png "LCD Circuit Diagram")
+
