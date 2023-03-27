@@ -1,16 +1,19 @@
 # LCD (16x2) display without I2C module
 
-VSS -> GND <br />
-VDD -> 5v <br />
-VEE -> pin 9 <br />
-RS -> pin 12 <br />
-PW -> GND <br />
-E -> pin 11 <br />
+1-VSS -> GND <br />
+2-VDD -> 5v <br />
+3-VEE -> pin 9 <br />
+4-RS -> pin 12 <br />
+5-PW -> GND <br />
+6-E -> pin 11 <br />
 
-D7 -> pin 2 <br />
-D6 -> pin 3 <br />
-D5 -> pin 4 <br />
-D4 -> pin 5 <br />
+10-D4 -> pin 5 <br />
+12-D5 -> pin 4 <br />
+13-D6 -> pin 3 <br />
+14-D7 -> pin 2 <br />
+
+15- +ve -> 5v <br />
+16- -ve -> GND <br />
 
 ### Source Code
 
