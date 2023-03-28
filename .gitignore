@@ -13,8 +13,10 @@
 *.workspace
 *.DS_Store
 
+
 # Build results
 
 
 # Files built by Proteus
+*.pdsbak
 
