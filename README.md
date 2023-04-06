@@ -7,6 +7,7 @@ kirankhanal@gmail.com
 * [General info](#general-info)
 * [Setup](#setup)
 * [Tutorials](#tutorials)
+* [Simple Ardunio Projects List](#simple ardunio projects list)
 
 ## General info
 A tutorial for using Arduino and Proteus as well as some projects made with Arduino and Proteus
