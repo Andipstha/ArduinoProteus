@@ -40,6 +40,9 @@ www.arduino.cc/
 
 ## Simple Ardunio Projects List
 * [Car Speed Detector](https://microdigisoft.com/how-to-make-a-car-speed-detector-using-arduino-and-ir-sensor-in-proteus/)
+* [Smart Dustbin](https://github.com/Andipstha/ArduinoProteus/tree/main/Projects/SmartDustbin)
+* [Sound Reactive](https://github.com/Andipstha/ArduinoProteus/tree/main/Projects/Sound-Reactive-LED)
+* [TrafficForPredristian](https://github.com/Andipstha/ArduinoProteus/tree/main/Projects/TrafficForPredristian)
 
 <!-- /*To generate lorem ipsum use special shortcode: `put-your-code-here`*/ -->
 
