@@ -1,4 +1,4 @@
-kirankhanal@gmail.com
+
 <!-- PROJECT SHIELDS -->
 [![Contributors][contributors-shield]][contributors-url]
 [![Forks][forks-shield]][forks-url]
@@ -74,6 +74,18 @@ www.arduino.cc/
 * [Sound Reactive](https://github.com/Andipstha/ArduinoProteus/tree/main/Projects/Sound-Reactive-LED)
 * [TrafficForPredristian](https://github.com/Andipstha/ArduinoProteus/tree/main/Projects/TrafficForPredristian)
 
+<!-- LICENSE -->
+## License
+
+Distributed under the GPL-3.0 License. See `LICENSE` for more information.
+
+
+
+<!-- CONTACT -->
+## Contact
+
+Kiran Khanal - kirankhanal@gmail.com
+
 
 <!-- /*To generate lorem ipsum use special shortcode: `put-your-code-here`*/ -->
 
@@ -91,4 +103,5 @@ www.arduino.cc/
 [license-shield]: https://img.shields.io/github/license/andipstha/ArduinoProteus?style=flat-square
 [license-url]: https://github.com/Andipstha/ArduinoProteus/blob/main/LICENSE
 [product-screenshot]: images/screenshot.png
+
 
